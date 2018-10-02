@@ -13,7 +13,7 @@ using System.Web.Mvc;
 namespace SportsStore.UnitTests
 {
 	[TestClass]
-	public class UnitTest1
+	public class UnitTest
 	{
 		[TestMethod]
 		public void Can_Paginate()
@@ -174,15 +174,12 @@ namespace SportsStore.UnitTests
 			int resAll = ((ProductsListViewModel)target
 				.List(null).Model).PagingInfo.TotalItems;
 
-
 			Assert.AreEqual(res1, 2);
 			Assert.AreEqual(res2, 2);
 			Assert.AreEqual(res3, 1);
 			Assert.AreEqual(resAll, 5);
-
-
-
-
 		}
+
+
 	}
 }
