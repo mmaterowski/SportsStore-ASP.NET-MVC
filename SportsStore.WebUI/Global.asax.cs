@@ -10,7 +10,7 @@ namespace SportsStore.WebUI
 		protected void Application_Start()
 		{
 			AreaRegistration.RegisterAllAreas();
-			RouteConfig.RegisterRoutes(RouteTable.Routes); ModelBinders.Binders.Add(typeof(Cart), new CartModelBinder());
+			RouteConfig.RegisterRoutes(RouteTable.Routes); 
 			ModelBinders.Binders.Add(typeof(Cart), new CartModelBinder());
 		}
 	}
