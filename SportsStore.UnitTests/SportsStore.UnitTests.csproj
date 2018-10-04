@@ -93,6 +93,7 @@
     <Compile Include="Tests\AdminTests.cs" />
     <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="Tests\CartTests.cs" />
+    <Compile Include="Tests\ImageTests.cs" />
     <Compile Include="Tests\UnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
