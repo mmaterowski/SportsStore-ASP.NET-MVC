@@ -89,10 +89,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminTests.cs" />
+    <Compile Include="Tests\AdminSecurityTests.cs" />
+    <Compile Include="Tests\AdminTests.cs" />
     <Compile Include="App_Start\NinjectWebCommon.cs" />
-    <Compile Include="CartTests.cs" />
-    <Compile Include="UnitTest.cs" />
+    <Compile Include="Tests\CartTests.cs" />
+    <Compile Include="Tests\UnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
