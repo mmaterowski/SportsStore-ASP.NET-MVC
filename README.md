@@ -13,3 +13,5 @@ After filling out the form data is sent by e-mail or saved to file.
 
 Admin panel in /Admin/Index is available after logging in with login: admin/ password: secret
 In admin panel You can edit products and categories. You are also able to upload pictures.
+
+//After loading a project I found that restarting VS removes errors. Change startup project to WebUI//
