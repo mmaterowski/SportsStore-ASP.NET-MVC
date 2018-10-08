@@ -15,3 +15,4 @@ Admin panel in /Admin/Index is available after logging in with login: admin/ pas
 In admin panel You can edit products and categories. You are also able to upload pictures.
 
 //After loading a project I found that restarting VS removes errors. Change startup project to WebUI//
+//If already not set, add reference to System.Data.Entity to SportsStore.Domain//
